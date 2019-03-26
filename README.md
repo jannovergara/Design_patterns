@@ -35,3 +35,21 @@ class Person
     int age;
 };
 ```
+  - A builder is a separate component for building an object
+  - Can either give a builder a constructor or return it via a static function
+  - To make a builder fluent, return [this]
+  - Different facets of an object can be built with different builders working in tandem via a base class
+
+2. Factory
+- Motivation
+  - Object creation logic becomes too convoluted
+  - Constructor is not descriptive
+    - Name mandated by name of containing type
+    - Cannot overload with same sets of arguments with different names
+    - Can turn into 'optional parameter hell'
+  - Object creation (non-piecewise, unlike Builder) can be outsourced to 
+    - A separate function (Factory Method)
+    - That may exist in a separate class (Factory)
+    - Can create heirarchy of factories with Abstract Factory
+
+"A component responsible solely for the wholesale (not piecewise) creationof objects."
