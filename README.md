@@ -1,4 +1,4 @@
-# design_patterns
+## design_patterns
 Design patterns in modern C++
 
 1. Builder
@@ -16,16 +16,22 @@ Motivation
 * groovy builder
 * builder facet
 
-// BuilderFacetsCode //
+#BuilderFacetsCode
 
 You are asked to implement the Builder design pattern for rendering simple chunks of code.
 Sample use of the builder you are asked to create:
-    auto cb = CodeBuilder{"Person"}.add_field("name", "string").add_field("age", "int");
-    cout  << cb;
+
+```sh
+auto cb = CodeBuilder{"Person"}.add_field("name", "string").add_field("age", "int");
+cout  << cb;
+```
 
 The expected output of the code is:
-    class Person
-    {
-        string name;
-        int age;
-    };
+
+```sh
+class Person
+{
+    string name;
+    int age;
+};
+```sh
