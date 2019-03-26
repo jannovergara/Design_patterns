@@ -2,7 +2,7 @@
 Design patterns in modern C++
 
 1. Builder
-Motivation
+- Motivation
   - Some objects are simple and can be created in a single constructor call
   - Other objects require a lot of ceremony to create
   - Having an object with 10 constructor arguments is not productive
