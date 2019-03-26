@@ -1,6 +1,7 @@
 #include <string>
 #include <vector>
 #include <ostream>
+#include <iostream>
 using namespace std;
 
 struct Field
@@ -56,3 +57,10 @@ public:
     return os << obj.the_class;
   }
 };
+
+int main()
+{
+    auto cb = CodeBuilder{"Person"}.add_field("age", "int").add_field("name", "string");
+    cout << cb;
+    return 0;
+}
