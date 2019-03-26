@@ -56,7 +56,7 @@ struct HtmlBuilder
     }
 
     string str() { return root.str(); }
-  
+    
 };
 
 int main()
