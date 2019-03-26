@@ -16,8 +16,7 @@ Motivation
 * groovy builder
 * builder facet
 
-///
-BuilderFacetsCode
+// BuilderFacetsCode //
 
 You are asked to implement the Builder design pattern for rendering simple chunks of code.
 Sample use of the builder you are asked to create:
