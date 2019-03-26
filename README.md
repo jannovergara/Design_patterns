@@ -10,3 +10,8 @@ Motivation
 - Builder provides API for constructing an object step-by-step
 
 "When piecewise object construction is complicated, provide an API for doing it succinctly"
+
+* builder
+* fluent builder
+* groovy builder
+* builder facet
