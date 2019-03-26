@@ -15,3 +15,8 @@ Motivation
 * fluent builder
 * groovy builder
 * builder facet
+
+///
+BuilderFacetsCode
+///
+You are asked to 
