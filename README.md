@@ -56,6 +56,9 @@ Factory Method and Abstract Factory
 
 "A component responsible solely for the wholesale (not piecewise) creationof objects."
 
+##### PersonFactory
+
+
 ### Prototype
 When it's easier to copy an existing object to fully initialize a new one
 - Motivation
