@@ -1,5 +1,1 @@
-*
-!*.cpp
-!*.h
-!*.md
-!Makefile
+*.vscode

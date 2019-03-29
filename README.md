@@ -54,13 +54,14 @@ Factory Method and Abstract Factory
     - That may exist in a separate class (Factory)
     - Can create heirarchy of factories with Abstract Factory
 
-"A component responsible solely for the wholesale (not piecewise) creationof objects."
+"A component responsible solely for the wholesale (not piecewise) creation of objects."
 
 ##### PersonFactory
 
 
 ### Prototype
 When it's easier to copy an existing object to fully initialize a new one
+Deep-copy
 - Motivation
   - Complicated objects (e.g. cars) aren't designed from scratch
     - They reiterate existing designs
