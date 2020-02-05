@@ -2,10 +2,7 @@
 Design patterns in modern C++
 
 ### Builder
-<<<<<<< HEAD
-=======
 When construction gets a little bit too complicated
->>>>>>> f794581f82006dbdfc04a6a2452f38c313903af7
 - Motivation
   - Some objects are simple and can be created in a single constructor call
   - Other objects require a lot of ceremony to create
@@ -44,12 +41,8 @@ class Person
   - To make a builder fluent, return **this**
   - Different facets of an object can be built with different builders working in tandem via a base class
 
-<<<<<<< HEAD
-### Factory
-=======
 ### Factories
 Factory Method and Abstract Factory
->>>>>>> f794581f82006dbdfc04a6a2452f38c313903af7
 - Motivation
   - Object creation logic becomes too convoluted
   - Constructor is not descriptive
